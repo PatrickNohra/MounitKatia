@@ -19,11 +19,12 @@
         android:id="@+id/nextpage1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="12dp"
         android:onClick="nextpage"
         android:text="Next"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/confirmOrder1"
         app:layout_constraintTop_toTopOf="@+id/confirmOrder1" />
 
     <TextView
@@ -139,6 +140,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
+        android:onClick="addstrawberry"
         android:text="Add"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2" />
