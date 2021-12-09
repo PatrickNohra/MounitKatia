@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         
     }
     public void login(View button){
-        Intent send = new Intent(MainActivity.this, Menu_v2.class);
+        Intent send = new Intent(MainActivity.this, Menu_v3.class);
         startActivity(send);
     }
 }
