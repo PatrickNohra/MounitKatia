@@ -17,10 +17,18 @@ public class MainActivity extends AppCompatActivity {
     }
     public void instagram(View view){
         ImageView insta = findViewById(R.id.insta);
+        Intent send = new Intent(MainActivity.this, InstagramPage.class);
+        startActivity(send);
         
     }
     public void login(View button){
         Intent send = new Intent(MainActivity.this, Menu_v3.class);
         startActivity(send);
     }
+
+    public void goToRegisterPage(View view) {
+        Intent send = new Intent(MainActivity.this, RegisterUser.class);
+        startActivity(send);
+    }
+
 }

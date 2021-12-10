@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "805296407564",
+    "project_id": "mounit-katia",
+    "storage_bucket": "mounit-katia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805296407564:android:3775d333b800718c8f9a29",
+        "android_client_info": {
+          "package_name": "com.example.mounitkatia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805296407564-1d18df51cjfuonktlhtp0kmp9d5enghc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6_7gUZUWBXeADhx7hZveZ8QtBm7M-wSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805296407564-1d18df51cjfuonktlhtp0kmp9d5enghc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

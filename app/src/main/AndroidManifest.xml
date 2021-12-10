@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MounitKatia">
-        <activity android:name=".addItem"></activity>
+        <activity android:name=".InstagramPage"></activity>
+        <activity android:name=".RegisterUser" />
+        <activity android:name=".addItem" />
         <activity android:name=".Menu2" />
         <activity android:name=".Menu_v3" />
         <activity android:name=".Menu_v2" />
