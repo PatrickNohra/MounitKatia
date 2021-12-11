@@ -13,9 +13,10 @@
         android:layout_height="221dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/mounitKatiaLogo" />
+        tools:srcCompat="@drawable/mounitkatia" />
 
     <ImageView
         android:id="@+id/insta"
@@ -23,16 +24,16 @@
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
         android:onClick="instagram"
-        app:layout_constraintBottom_toTopOf="@+id/username"
+        app:layout_constraintBottom_toTopOf="@+id/username2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.044"
-        tools:srcCompat="@drawable/instagramLogo" />
+        tools:srcCompat="@drawable/instagl" />
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/username2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="104dp"
@@ -46,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/password2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -55,7 +56,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username"
+        app:layout_constraintTop_toBottomOf="@+id/username2"
         android:hint="Password"
         android:textAlignment="center"/>
 
@@ -68,10 +69,10 @@
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/password2" />
 
     <Button
-        android:id="@+id/registerButton"
+        android:id="@+id/registerButton2"
         android:layout_width="120dp"
         android:layout_height="54dp"
         android:layout_marginTop="15dp"

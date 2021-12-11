@@ -17,7 +17,7 @@ public class InstagramPage extends AppCompatActivity {
         WebView view = (WebView) findViewById(R.id.webView);
         view.getSettings().setJavaScriptEnabled(true);
         view.setWebViewClient(new WebViewClient());
-        view.loadUrl("https://www.instagram.com/p/CWPWe4oqVT6/");
+        view.loadUrl("https://www.instagram.com/mounetkatia/");
     }
 
 
