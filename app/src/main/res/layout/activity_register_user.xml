@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterUser">
+    tools:context=".RegisterUser"
+    android:background="@drawable/background">
 
 
     <EditText
@@ -27,23 +28,23 @@
         android:layout_height="221dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/mounitkatia"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/mounitkatia" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/insta"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
+        android:background="@drawable/instagl"
         android:onClick="instagram2"
         app:layout_constraintBottom_toTopOf="@+id/username2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044"
-        tools:srcCompat="@drawable/instagl" />
+        app:layout_constraintVertical_bias="0.044" />
 
     <EditText
         android:id="@+id/username2"

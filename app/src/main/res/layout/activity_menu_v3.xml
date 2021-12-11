@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu_v3">
+    tools:context=".Menu_v3"
+    android:background="@drawable/background">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="104dp"
+        android:background="@drawable/strawberryjam"
         app:layout_constraintEnd_toStartOf="@+id/addStrawberry"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/strawberryjam" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/nextpage1"
@@ -43,15 +44,16 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="32dp"
+        android:background="@drawable/mazaher"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <Button
         android:id="@+id/addMazaher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
+        android:onClick="addmazaher"
         android:text="add"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView7" />
@@ -80,17 +82,18 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="48dp"
+        android:background="@drawable/makdous"
         app:layout_constraintEnd_toStartOf="@+id/addbatenjenM"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
         android:id="@+id/addbatenjenM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
+        android:onClick="addmakdous"
         android:text="add"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView3" />
@@ -111,8 +114,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="116dp"
+        android:layout_marginEnd="8dp"
         android:text="Makdous Batenjen"
         android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sbJamPrice" />
 
@@ -122,6 +127,7 @@
         android:layout_height="71dp"
         android:layout_marginStart="88dp"
         android:layout_marginBottom="16dp"
+        android:onClick="proceedCashOut"
         android:text="confirm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

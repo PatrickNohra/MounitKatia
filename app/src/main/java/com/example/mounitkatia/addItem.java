@@ -15,6 +15,8 @@ public class addItem extends AppCompatActivity {
     Button confirm;
     int count = 0;
     double price=0;
+    int intentSource;
+    String str="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,11 +30,12 @@ public class addItem extends AppCompatActivity {
         confirm =  findViewById(R.id.confirm);
 
         Intent prev = getIntent();
-        String str = prev.getStringExtra("Name");
+        str = prev.getStringExtra("Name");
         name.setText("Number of "+str);
         String p  = prev.getStringExtra("Price");
         p = p.substring(0, p.length()-1);
         price =  Double.parseDouble(p);
+        intentSource = prev.getIntExtra("Menu", 0);
     }
 
     public void removeItem(View view) {
@@ -53,5 +56,11 @@ public class addItem extends AppCompatActivity {
     }
 
     public void confirm(View view) {
+        if(intentSource==1){
+        Intent intent = new Intent(getApplicationContext(), Menu_v3.class);
+        intent.putExtra("count", count);
+        intent.putExtra("name", str);
+        startActivity(intent);
+        }
     }
 }
