@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="104dp"
         android:ems="10"
-        android:hint="UserName"
+        android:hint="Email"
         android:inputType="textPersonName"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"

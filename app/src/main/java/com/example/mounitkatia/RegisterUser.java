@@ -63,14 +63,14 @@ public class RegisterUser extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<Void> task) {
                                 if(task.isSuccessful()){
-                                    Toast.makeText(getApplicationContext(), "User has been Registered!", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getApplicationContext(), "User has been Registered!", Toast.LENGTH_SHORT).show();
                                     Intent send = new Intent(RegisterUser.this, Menu_v3.class);
                                     startActivity(send);
-                                }else Toast.makeText(getApplicationContext(), "could not register at this time!", Toast.LENGTH_LONG).show();
+                                }else Toast.makeText(getApplicationContext(), "could not register at this time!", Toast.LENGTH_SHORT).show();
 
                             }
                         });
-                    }else Toast.makeText(getApplicationContext(), "could not register at this time 2!", Toast.LENGTH_LONG).show();
+                    }else Toast.makeText(getApplicationContext(), "could not register at this time 2!", Toast.LENGTH_SHORT).show();
 
                 }
             });
